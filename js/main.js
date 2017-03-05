@@ -189,36 +189,6 @@ jQuery(document).ready(function($) {
 	//FIX HOVER EFFECT ON IOS DEVICES
 	document.addEventListener("touchstart", function(){}, true);
 	
-	
-	//WORLD MAP
-	var basic_choropleth = new Datamap({
-	  element: document.getElementById("world-map"),
-	  projection: 'mercator',
-	  fills: {
-		defaultFill: "#dddddd",
-		event: "#faca3a"
-		
-	  },
-	  data: {
-		SYR: { fillKey: "event" },
-		PAK: { fillKey: "event" },
-		SEN: { fillKey: "event" },
-		SOM: { fillKey: "event" },
-		SDN: { fillKey: "event" },
-		TZA: { fillKey: "event" },
-		TGO: { fillKey: "event" },
-		VUT: { fillKey: "event" },
-		VNM: { fillKey: "event" },
-		ZMB: { fillKey: "event" },
-		ZWE: { fillKey: "event" },
-		AFG: { fillKey: "event" },
-		AGO: { fillKey: "event" },
-		BGD: { fillKey: "event" },
-		BFA: { fillKey: "event" },
-		KHM: { fillKey: "event" },
-		DJI: { fillKey: "event" },
-	  }
-	});
 
 	 
 });
@@ -278,7 +248,7 @@ $(window).load(function(){
 		var email 	= $("#newsletter_email").val();
 		if ( email=="" ){ alert("Your email address is empty!"); $("#newsletter_email").focus(); }
 		else {
-			$.post("newsletter.send.php", { email:email }, function( result ){
+			$.post("donate.send.php", { email:email }, function( result ){
 				
 				console.log( result );
 				
