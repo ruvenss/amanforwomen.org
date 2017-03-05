@@ -1,0 +1,406 @@
+
+
+/* CORE CSS */
+
+
+body {
+	color:#777777;
+}
+
+h2 {
+	color:#ffffff;
+}
+
+h3 {
+	color:#000000;
+}
+.bgh3 {
+	color:#fff;
+}
+.bgp {
+	color:#fff;
+}
+.bgh2 {
+	color:#2f1a2f;
+}
+/* NAVIGATION */
+
+.navbar-custom {
+	color:#ffffff;
+}
+
+.navbar-custom a {
+	color:#777777;
+}
+
+.navbar-custom .navbar-nav > li > a:hover {
+	color:#000000;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+	background:#000000;
+}
+
+.banner--clone {
+	background:#2f1a2f ;
+}
+
+.banner--clone .navbar-custom a {
+	color:#eeeeee;
+}
+
+.banner--clone .navbar-custom .navbar-nav > li > a:hover {
+	color:#ea1560;
+}
+
+
+/* TOP */
+
+#top {
+	color:#ffffff;
+	background:url(../../img/top-bg.png) bottom center no-repeat;
+
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+}
+
+
+/* ABOUT */
+
+#about h2 {
+	color:#000000;
+}
+
+.service i {
+	color:#2f1a2f ;
+}
+
+.service:hover {
+	background:#2f1a2f ;
+	color:#fff;
+}
+
+.service:hover i {
+	color:#fff;
+}
+
+.service:hover h3 {
+	color:#ffffff;
+}
+
+.service:hover p {
+	color:#000;
+	color:#fff;
+	font-size: 19px;
+}
+p {
+	font-size: 19px;
+}
+ul li {
+	font-size: 19px;
+}
+.lead {
+	font-size: 19px;
+}
+
+
+/* PROGRAM */
+
+#program {
+	background: 
+    linear-gradient(
+      #2f1a2f, 
+      #2f1a2f
+    ),
+	
+    url(../../img/program-bg.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+}
+
+.program {
+	background:#ffffff;
+}
+
+#program .lead {
+	color:#ffffff;
+}
+
+.program .icon {
+	color:#ffffff;
+	background:#2f1a2f ;
+}
+/* POPUP PROGRAM DETAILS */
+#program-detail {
+	background:#ffffff;
+}
+
+#program-detail .icon {
+	color:#000000;
+	background:#2f1a2f ;
+}
+
+
+/* MILESTONE */
+
+.fact .timer {
+	color:#000000;
+}
+
+.fact i {
+	color:#2f1a2f ;
+}
+
+
+/* STORIES */
+
+#stories {
+	background:#2f1a2f ;
+	background-image: url(../../img/map-white.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+#stories .lead {
+	color:#fff;
+}
+
+.story {
+	background:#ffffff;
+}
+
+.story .icon {
+	color:#ffffff;
+	background:#2f1a2f ;
+}
+
+#donate .lead {
+	color:#fff;
+}
+
+#donate .pledged {
+	color:#fff;
+}
+
+#donate .progress {
+	background:#dddddd;
+}
+
+#donate .progress-bar {
+	background:#ea1560;
+}
+
+
+/* POPUP DONATE FORM */
+
+#donate-form {
+	background:#ffffff;
+}
+
+#donate-form input,
+#donate-form select {
+	border:1px solid #777777;
+}
+
+
+/* POPUP STORY DETAILS */
+
+#story-detail {
+	background:#ffffff;
+}
+
+#story-detail .icon {
+	color:#000000;
+	background:#2f1a2f ;
+}
+
+#story-detail footer {
+	background:none;
+}
+
+
+
+
+/* EVENTS */
+
+
+.event h3 {
+	color:#000000;
+}
+
+.event .icon {
+	color:#ffffff;
+	background:#2f1a2f ;
+}
+
+.event .description {
+	background:#eeeeee;
+}
+
+#upcoming-events .owl-buttons .icon {
+	color:#ffffff;
+	background:#2f1a2f ;
+}
+
+
+/* NEWS */
+
+#news h2 {
+	color:#000000;
+}
+
+.news .date i {
+	color:#2f1a2f ;
+}
+
+/* Common style */
+
+.news figure {
+	background: #2f1a2f ;
+}
+
+.news figure figcaption {
+	color:#ffffff;
+}
+
+.news figure h3 {
+	color:#ffffff;
+}
+
+/*---------------*/
+/***** news-effect *****/
+/*---------------*/
+
+figure.news-effect {
+	background: #000000;
+}
+
+figure.news-effect h3::after {
+	background: #2f1a2f ;
+}
+
+
+/* POPUP NEWS DETAILS */
+
+#news-detail {
+	background:#ffffff;
+}
+
+#news-detail .date {
+	color:#fff;
+	background:#2f1a2f ;
+}
+
+/* FOOTER */
+
+footer {
+	color:#fff;
+	background:#2f1a2f ;
+	padding:55px 0;
+	
+	background-image: url(../../img/map-white.png);
+    background-repeat: no-repeat;
+    background-position: right top; 
+}
+
+
+/* social buttons */
+
+.social .fa-inverse {
+	color:#2f1a2f ;
+}
+
+.social .fa-inverse:hover {
+	color:#2f1a2f ;
+}
+
+.social a {
+	color:#ffffff;
+}
+
+.social a:hover{
+	color:#000000;
+}
+
+
+/* SUBFOOTER */
+.subfooter {
+	color:#777777;
+	background:#000000;
+}
+
+.subfooter a {
+	color:#777777;
+}
+
+.subfooter a:hover {
+	color:#2f1a2f ;
+}
+
+
+/* MISC */
+
+/* BUTTONS */
+
+
+
+.button-light {
+	color:#ffffff;
+	background:#2f1a2f ;
+}
+
+.button-light:hover,
+.button-light:active {
+	color:#000000;
+}
+
+.button-dark {
+	color:#ffffff;
+	background:#000000;
+}
+
+.button-dark:hover,
+.button-dark:active {
+	color:#2f1a2f ;
+}
+
+
+/* PRELOAD */
+
+#preload {
+	background:#ececee;
+}
+
+.loader:before {
+	background: #ececee;
+}
+
+.loader {
+	box-shadow: inset 0 0 0 1em #2f1a2f ;
+}
+
+.loader:after {
+	background: #ececee;
+}
+
+
+/* OWL CAROUSEL */
+
+.owl-theme .owl-controls .owl-page span {
+	background:#2f1a2f ;
+}
+
+.owl-theme .owl-controls .owl-buttons div{
+	color:#2f1a2f ;
+}
+
+
+/* IMAGE HOVER EFFECTS */
+
+	
+.wrap .plus {
+	background: url(../../img/plus.png) no-repeat scroll center center / 60px 60px #222222;
+}

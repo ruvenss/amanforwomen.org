@@ -1,0 +1,391 @@
+
+
+/* CORE CSS */
+
+
+body {
+	color:#777777;
+}
+
+h2 {
+	color:#ffffff;
+}
+
+h3 {
+	color:#000000;
+}
+
+
+/* NAVIGATION */
+
+.navbar-custom {
+	color:#ffffff;
+}
+
+.navbar-custom a {
+	color:#777777;
+}
+
+.navbar-custom .navbar-nav > li > a:hover {
+	color:#000000;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+	background:#000000;
+}
+
+.banner--clone {
+	background:#61fa2b ;
+}
+
+.banner--clone .navbar-custom a {
+	color:#eeeeee;
+}
+
+.banner--clone .navbar-custom .navbar-nav > li > a:hover {
+	color:#000000;
+}
+
+
+/* TOP */
+
+#top {
+	color:#ffffff;
+	background:url(../../img/top-bg.png) bottom center no-repeat;
+
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+}
+
+
+/* ABOUT */
+
+#about h2 {
+	color:#000000;
+}
+
+.service i {
+	color:#61fa2b ;
+}
+
+.service:hover {
+	background:#61fa2b ;
+}
+
+.service:hover i {
+	color:#000;
+}
+
+.service:hover h3 {
+	color:#ffffff;
+}
+
+.service:hover p {
+	color:#000;
+}
+
+
+
+/* PROGRAM */
+
+#program {
+	background: 
+    linear-gradient(
+      rgba(97,250,43, 0.60), 
+      rgba(97,250,43, 0.60)
+    ),
+	
+    url(../../img/program-bg.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+}
+
+.program {
+	background:#ffffff;
+}
+
+#program .lead {
+	color:#ffffff;
+}
+
+.program .icon {
+	color:#ffffff;
+	background:#61fa2b ;
+}
+
+
+/* POPUP PROGRAM DETAILS */
+
+#program-detail {
+	background:#ffffff;
+}
+
+#program-detail .icon {
+	color:#000000;
+	background:#61fa2b ;
+}
+
+
+/* MILESTONE */
+
+.fact .timer {
+	color:#000000;
+}
+
+.fact i {
+	color:#61fa2b ;
+}
+
+
+/* STORIES */
+
+#stories {
+	background:#61fa2b ;
+	background-image: url(../../img/map-white.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+#stories .lead {
+	color:#000000;
+}
+
+.story {
+	background:#ffffff;
+}
+
+.story .icon {
+	color:#ffffff;
+	background:#61fa2b ;
+}
+
+#donate .lead {
+	color:#000000;
+}
+
+#donate .pledged {
+	color:#000000;
+}
+
+#donate .progress {
+	background:#dddddd;
+}
+
+#donate .progress-bar {
+	background:#000000;
+}
+
+
+/* POPUP DONATE FORM */
+
+#donate-form {
+	background:#ffffff;
+}
+
+#donate-form input,
+#donate-form select {
+	border:1px solid #777777;
+}
+
+
+/* POPUP STORY DETAILS */
+
+#story-detail {
+	background:#ffffff;
+}
+
+#story-detail .icon {
+	color:#000000;
+	background:#61fa2b ;
+}
+
+#story-detail footer {
+	background:none;
+}
+
+
+
+
+/* EVENTS */
+
+
+.event h3 {
+	color:#000000;
+}
+
+.event .icon {
+	color:#ffffff;
+	background:#61fa2b ;
+}
+
+.event .description {
+	background:#eeeeee;
+}
+
+#upcoming-events .owl-buttons .icon {
+	color:#ffffff;
+	background:#61fa2b ;
+}
+
+
+/* NEWS */
+
+#news h2 {
+	color:#000000;
+}
+
+.news .date i {
+	color:#61fa2b ;
+}
+
+/* Common style */
+
+.news figure {
+	background: #61fa2b ;
+}
+
+.news figure figcaption {
+	color:#ffffff;
+}
+
+.news figure h3 {
+	color:#ffffff;
+}
+
+/*---------------*/
+/***** news-effect *****/
+/*---------------*/
+
+figure.news-effect {
+	background: #000000;
+}
+
+figure.news-effect h3::after {
+	background: #61fa2b ;
+}
+
+
+/* POPUP NEWS DETAILS */
+
+#news-detail {
+	background:#ffffff;
+}
+
+#news-detail .date {
+	color:#000000;
+	background:#61fa2b ;
+}
+
+/* FOOTER */
+
+footer {
+	color:#000000;
+	background:#61fa2b ;
+	padding:55px 0;
+	
+	background-image: url(../../img/map-white.png);
+    background-repeat: no-repeat;
+    background-position: right top; 
+}
+
+
+/* social buttons */
+
+.social .fa-inverse {
+	color:#61fa2b ;
+}
+
+.social .fa-inverse:hover {
+	color:#61fa2b ;
+}
+
+.social a {
+	color:#ffffff;
+}
+
+.social a:hover{
+	color:#000000;
+}
+
+
+/* SUBFOOTER */
+.subfooter {
+	color:#777777;
+	background:#000000;
+}
+
+.subfooter a {
+	color:#777777;
+}
+
+.subfooter a:hover {
+	color:#61fa2b ;
+}
+
+
+/* MISC */
+
+/* BUTTONS */
+
+
+
+.button-light {
+	color:#ffffff;
+	background:#61fa2b ;
+}
+
+.button-light:hover,
+.button-light:active {
+	color:#000000;
+}
+
+.button-dark {
+	color:#ffffff;
+	background:#000000;
+}
+
+.button-dark:hover,
+.button-dark:active {
+	color:#61fa2b ;
+}
+
+
+/* PRELOAD */
+
+#preload {
+	background:#ececee;
+}
+
+.loader:before {
+	background: #ececee;
+}
+
+.loader {
+	box-shadow: inset 0 0 0 1em #61fa2b ;
+}
+
+.loader:after {
+	background: #ececee;
+}
+
+
+/* OWL CAROUSEL */
+
+.owl-theme .owl-controls .owl-page span {
+	background:#61fa2b ;
+}
+
+.owl-theme .owl-controls .owl-buttons div{
+	color:#61fa2b ;
+}
+
+
+/* IMAGE HOVER EFFECTS */
+
+	
+.wrap .plus {
+	background: url(../../img/plus.png) no-repeat scroll center center / 60px 60px #222222;
+}

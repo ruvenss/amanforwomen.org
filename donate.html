@@ -1,0 +1,58 @@
+<div class="container">
+	<div class="row">
+        <div id="donate-form" class="col-lg-6 col-lg-offset-3">
+            <div class="row">
+            	<button title="Close (Esc)" type="button" class="mfp-close">×</button>
+                
+                <div class="col-lg-12">
+                	<h2 class="uppercase">register</h2>
+                    <p>Maecenas vitae tincidunt nibh. Praesent tristique lacus quis ante venenatis posuere. Aenean adipiscing dictum mollis. Suspendisse potenti. Proin pretium lectus ut leo fringilla mattis. Mauris ultrices rutrum sagittis. Pellentesque vitae nibh elit. Fusce lacinia, elit non iaculis fermentum, metus justo posuere neque, sed viverra ligula turpis sit amet quam. Integer ac risus libero. Curabitur sit amet sem leo</p>
+                </div>
+                <!-- REGISTER FORM -->
+                <div class="donate-form">
+                
+                    <div class="control-group col-lg-12">
+                        <div class="controls">
+                            <label for="name">NAME</label><br>
+                            <input type="text" name="name" id="name" required data-validation-required-message="Please enter your name" />
+                        </div>
+                    </div>
+                
+                    <div class="control-group col-lg-12">
+                        <div class="controls ">                           
+                            <label for="email">EMAIL</label><br>
+                            <input type="email" name="email" id="email"  required data-validation-required-message="Please enter your email" />
+                        </div>
+                    </div>
+                    
+                     <div class="control-group col-lg-6">
+                        <div class="controls ">                            
+                            <label for="type">TYPE</label><br>
+                            <select name="type" id="type">
+                                <option value="" disabled selected="selected">Select type</option>
+                                <option value="Education">Education</option>
+                                <option value="Health">Health</option>
+                                <option value="Protect">Protect</option>
+                                <option value="Food Aid">Food Aid</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="control-group col-lg-6">
+                        <div class="controls ">                            
+                            <label for="amount">AMOUNT</label><br>
+                            <input type="text" name="amount" id="amount" required data-validation-required-message="Please enter amount" />
+                        </div>
+                    </div>
+                
+                    <div class="col-lg-12 text-right">
+                        <button class="button button-big button-dark" onclick="donate_send();">SEND</button>
+                    </div>
+                    
+                </div>
+                
+                
+            </div>
+        </div>
+    </div>
+</div>

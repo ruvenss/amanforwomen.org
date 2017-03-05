@@ -1,0 +1,410 @@
+
+
+/* CORE CSS */
+
+
+
+body {
+	color:#777777;
+}
+
+
+
+h2 {
+	color:#000000;
+}
+
+h3 {
+	color:#000000;
+}
+
+
+/* TOP */
+#top {
+	color:#ffffff;
+	background:url(../../img/top-bg.png) bottom center no-repeat;
+
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+}
+
+
+/* NAVIGATION */
+
+.navbar-custom {
+	color:#ffffff;
+}
+
+.navbar-custom a {
+	color:#777777;
+}
+
+.navbar-custom .navbar-nav > li > a:hover {
+	color:#000000;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+	background:#000000;
+}
+
+.banner--clone {
+	background:#fac42b;
+}
+
+.banner--clone .navbar-custom a {
+	color:#eeeeee;
+}
+
+.banner--clone .navbar-custom .navbar-nav > li > a:hover {
+	color:#000000;
+}
+
+
+/* TOP */
+
+#top {
+	color:#ffffff;
+	background:url(../../img/top-bg.png) bottom center no-repeat;
+	
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+}
+
+
+/* ABOUT */
+
+
+.service i {
+	color:#fac42b;
+}
+
+.service:hover {
+	background:#fac42b;
+}
+
+.service:hover i {
+	color:#000;
+}
+
+.service:hover h3 {
+	color:#ffffff;
+}
+
+.service:hover p {
+	color:#000;
+}
+
+
+/* PROGRAM */
+
+#program {
+	background: 
+    linear-gradient(
+      rgba(250, 196, 43, 0.60), 
+      rgba(250, 196, 43, 0.60)
+    ),
+	
+    url(../../img/program-bg.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+}
+
+.program {
+	background:#ffffff;
+}
+
+
+#program .lead {
+	color:#000000;
+}
+
+.program .icon {
+	color:#000000;
+	background:#fac42b;
+}
+
+
+
+/* POPUP PROGRAM DETAILS */
+
+#program-detail {
+	background:#ffffff;
+}
+
+#program-detail .icon {
+	color:#000000;
+	background:#fac42b;
+}
+
+
+/* MILESTONE */
+
+
+
+.fact .timer {
+	color:#000000;
+}
+
+
+.fact i {
+	color:#fac42b;
+}
+
+
+/* STORIES */
+
+#stories {
+	background:#fac42b;
+	background-image: url(../../img/map-black.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+#stories .lead {
+	color:#000000;
+}
+
+
+.story {
+	background:#ffffff;
+}
+
+.story h3 {
+	font-size:21px;
+}
+
+
+.story .icon {
+	color:#000000;
+	background:#fac42b;
+}
+
+
+#donate .lead {
+	color:#000000;
+}
+
+#donate .pledged {
+	color:#000000;
+}
+
+#donate .progress {
+	background:#dddddd;
+}
+
+#donate .progress-bar {
+	background:#000000;
+}
+
+
+/* POPUP DONATE FORM */
+
+#donate-form {
+	background:#ffffff;
+}
+
+#donate-form input,
+#donate-form select {
+	border:1px solid #777777;
+}
+
+
+/* POPUP STORY DETAILS */
+
+#story-detail {
+	background:#ffffff;
+}
+
+#story-detail header {
+	margin-bottom:10px;
+}
+
+#story-detail .icon {
+	color:#000000;
+	background:#fac42b;
+}
+
+#story-detail footer {
+	background:none;
+}
+
+
+/* EVENTS */
+
+.event h3 {
+	color:#000000;
+}
+
+.event .icon {
+	color:#000000;
+	background:#fac42b;
+}
+
+.event .description {
+	background:#eeeeee;
+}
+
+#upcoming-events .owl-buttons .icon {
+	color:#ffffff;
+	background:#fac42b;
+}
+
+
+/* NEWS */
+
+.news .date i {
+	color:#fac42b;
+}
+
+/* Common style */
+.news figure {
+	background: #fac42b;
+}
+
+
+.news figure figcaption {
+	color: #fff;
+}
+
+
+.news figure h3 {
+	color:#ffffff;
+}
+
+
+/*---------------*/
+/***** news-effect *****/
+/*---------------*/
+
+figure.news-effect {
+	background: #000;
+}
+
+
+figure.news-effect h3::after {
+	background: #fac42b;
+}
+
+/* POPUP NEWS DETAILS */
+
+#news-detail {
+	background:#ffffff;
+}
+
+#news-detail header {
+	margin-bottom:10px;
+}
+
+#news-detail .date {
+	color:#000000;
+	background:#fac42b;
+}
+
+
+/* FOOTER */
+
+footer {
+	color:#000000;
+	background:#fac42b;
+	
+	background-image: url(../../img/map-black.png);
+    background-repeat: no-repeat;
+    background-position: right top; 
+}
+
+
+/* social buttons */
+
+.social .fa-inverse {
+	color:#fac42b;
+}
+
+.social .fa-inverse:hover {
+	color:#fac42b;
+}
+
+.social a {
+	color:#ffffff;
+}
+
+.social a:hover{
+	color:#000000;
+}
+
+
+/* SUBFOOTER */
+.subfooter {
+	color:#777777;
+	background:#000000;
+}
+
+.subfooter a {
+	color:#777777;
+}
+
+.subfooter a:hover {
+	color:#fac42b;
+}
+
+
+/* MISC */
+
+/* FORM ELEMENTS */
+
+
+
+/* BUTTONS */
+
+
+.button-light {
+	color:#ffffff;
+	background:#fac42b;
+}
+
+.button-light:hover,
+.button-light:active {
+	color:#000000;
+}
+
+.button-dark {
+	color:#ffffff;
+	background:#000000;
+}
+
+.button-dark:hover,
+.button-dark:active {
+	color:#fac42b;
+}
+
+
+/* PRELOAD */
+
+#preload {
+	background:#ececee;
+}
+
+.loader {
+	box-shadow: inset 0 0 0 1em #fac42b;
+}
+
+.loader:after {
+	background: #ececee;
+	
+}
+
+
+/* OWL CAROUSEL */
+
+.owl-theme .owl-controls .owl-page span {
+	background:#fac42b;
+}
+
+.owl-theme .owl-controls .owl-buttons div{
+	color:#fac42b;
+}
+
+
